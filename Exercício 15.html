@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+       
+    // entrada
+    var n1= parseFloat (prompt ("Insira a nota 1"));
+    var n2= parseFloat (prompt ("Insira a nota 2"));
+    var n3= parseFloat (prompt ("Insira a nota 3"));
+    var n4= parseFloat (prompt ("Insira a nota 4"));
+
+    // processamento
+    media = (n1+n2+n3+n4)/4
+    var mensagem;
+        
+    if (media >= 7) {
+    mensagem = "Aprovado";
+    console.log(mensagem);
+}
+    else if (media >= 5) {
+    mensagem = "Recuperação";  
+    console.log(mensagem);  
+} 
+    else {
+    mensagem = "Reprovado";
+    console.log(mensagem);
+}
+
+     </script>
+</body>
+</html>
+

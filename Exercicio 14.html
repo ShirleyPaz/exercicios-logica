@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+    // entrada
+    var preço = parseFloat (prompt ("Insira o preço do produto"));
+    var origem = parseFloat (prompt ("Insira o código de origem"));
+    
+    // processamento
+    if (origem == 1) {
+        console.log ("Sul");
+}
+    if (origem == 2) {
+        console.log ("Norte");
+} 
+    if (origem == 3) {
+        console.log ("Leste");
+} 
+    if (origem == 4) {
+        console.log ("Oeste");
+} 
+    if (origem >4 && origem <= 6) {
+        console.log ("Nordeste");
+} 
+    if (origem >6 && origem <= 9) {
+        console.log ("Sudeste");
+} 
+    if (origem >9 && origem <= 20) {
+        console.log ("Centro-Oeste");
+} 
+    if (origem >20 && origem <= 30) {
+        console.log ("Sem Definição");
+} 
+    </script>
+</body>
+</html>
