@@ -10,18 +10,13 @@
 
 <body>
     <script>    
-         var Numero = 1; 
-         var Multiplicador = 1;
-         var Conta = Numero * Multiplicador
-        
-        while (Numero <=10) {
-             while (Multiplicador <= 10) {
-             document.write(Numero + " x " + Multiplicador + " = " + (Numero * Multiplicador) + "</br>");
-             Multiplicador++;
+
+        for (numero = 1; numero <= 10; numero++) {
+            // document.write("Tabuada do "+ numero + "</br>");
+            for (multiplicador = 1; multiplicador <= 10; multiplicador++) {
+                document.write(numero + " x " + multiplicador + " = " + (numero * multiplicador) + "</br>");
             }
-        Numero++;
-        Multiplicador = 1;
-        document.write ("</br>");
+            document.write("</br>");
         }        
     </script>
 </body>
