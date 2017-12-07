@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Faça um programa que solicite 5 números do usuário e guarde da seguinte forma:
+    se for par, multiplicar por 2.
+    se for ímpar, apenas o guarde no array. -->
+    <script>    
+
+        var arrNumeros = [];
+
+        for (var i=0; i <= 4; i++) {
+             arrNumeros[i] = parseFloat(prompt ("Digite um número"));
+            
+            if (arrNumeros[i]  % 2 == 0) {
+                arrNumeros[i] =  arrNumeros[i] * 2;
+            }
+        }
+    
+    console.log (arrNumeros);
+    
+    </script>
+</body>
+</html>

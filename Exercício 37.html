@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>    
+
+        var  arrNumeros = [];
+
+        for (var i=0; i <= 4; i++) {
+
+            var numero = parseInt(prompt ("Digite um número par."));
+             
+            
+            while ( numero % 2 == 1) {
+                numero = parseInt(prompt ("Eu disse pra digitar um número par."));
+            }
+
+            arrNumeros[i] = numero;        
+        }
+    
+        console.log (arrNumeros);
+    
+    </script>
+</body>
+</html>
